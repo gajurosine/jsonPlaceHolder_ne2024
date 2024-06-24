@@ -45,7 +45,7 @@ const HomeScreen = ({ navigation }) => {
               <Text>{item.body}</Text>
             </TouchableOpacity>
             <Button title="Delete post" onPress={() => handleDelete(item.id)} />
-            <Button title="View post" onPress={() => navigation.navigate('Post', { id: item.id })} />
+            <Button title=" view post" onPress={() => navigation.navigate('Post', { id: item.id })} />
           </View>
         )}
       />
